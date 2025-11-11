@@ -1,9 +1,3 @@
----
-permalink: /
-title: "Xiao Yang"
-layout: single
-author_profile: true
----
 
 # Xiao Yang
 
@@ -25,9 +19,48 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 - *2018.09 – 2022.06*, B.Eng., Software Engineering, School of Software, Shandong University.  
 
 
-## Publications & Preprints
-<!-- You can list key works here, or auto-generate a full list on /publications using _publications items. -->
-- *(Coming soon)*
+## Selective Articles
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/papers/EHRStruct.png" alt="EHRStruct figure" style="width:150px; margin-right:15px; border-radius:6px;">
+  <div>
+    <strong>EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks</strong><br>
+    Xiao Yang, Xuejiao Zhao, Zhiqi Shen<br>
+    <em>The 40th Annual AAAI Conference on Artificial Intelligence (AAAI26)</em><br>
+    [Paper] <a href="https://github.com/YXNTU/EHRStruct" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/papers/CausalHGNN.png" alt="CausalHGNN figure" style="width:150px; margin-right:15px; border-radius:6px;">
+  <div>
+    <strong>Are Heterogeneous Graph Neural Networks Truly Effective? A Causal Perspective</strong><br>
+    Xiao Yang, Xuejiao Zhao, Zhiqi Shen<br>
+    <em>arXiv</em><br>
+    <a href="https://arxiv.org/abs/2510.05750" target="_blank">[Paper]</a> <a href="https://github.com/YXNTU/CausalHGNN" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/papers/Grug.png" alt="Grug figure" style="width:150px; margin-right:15px; border-radius:6px;">
+  <div>
+    <strong>A Unified Gradient Regularization Method for Heterogeneous Graph Neural Networks</strong><br>
+    Xiao Yang, Xuejiao Zhao, Zhiqi Shen<br>
+    <em>Neural Networks</em><br>
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608025009840" target="_blank">[Paper]</a> <a href="https://github.com/YXNTU/Grug" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/papers/GeneralDyg.png" alt="GeneralDyG figure" style="width:150px; margin-right:15px; border-radius:6px;">
+  <div>
+    <strong>A Generalizable Anomaly Detection Method in Dynamic Graphs</strong><br>
+    Xiao Yang, Xuejiao Zhao, Zhiqi Shen<br>
+    <em>The 39th Annual AAAI Conference on Artificial Intelligence (AAAI25)</em><br>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35508" target="_blank">[Paper]</a> <a href="https://github.com/YXNTU/GeneralDyG" target="_blank">[Code]</a>
+  </div>
+</div>
+
 
 ## Professional Services & Teaching
 <!-- PC/Reviewer roles, organizing service, and courses TA/Instructor. -->
