@@ -21,92 +21,100 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 
 ## Selective Articles
 
+
+<!-- minimal styles for paper-box layout -->
 <style>
-.pubs { margin-top: 8px; }
-.pub-item { display: flex; gap: 16px; margin: 20px 0; align-items: flex-start; }
-.pub-thumb {
-  flex: 0 0 180px;             
-  height: 120px;               
-  border: 1px solid #eee;
-  border-radius: 6px;
-  background: #fafafa;
-  display: flex; align-items: center; justify-content: center;
-  overflow: hidden;
+.paper-box { display:flex; gap:16px; margin:18px 0; align-items:flex-start; }
+.paper-box-image { flex:0 0 180px; }
+.paper-box-image .badge {
+  display:inline-block; background:#1a73e8; color:#fff; font-size:12px;
+  padding:2px 8px; border-radius:10px; margin-bottom:6px;
 }
-.pub-thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
-.pub-meta { line-height: 1.45; }
-.pub-title { font-weight: 600; margin: 0 0 4px; }
-.pub-authors { margin: 0 0 2px; color: #333; }
-.pub-venue { margin: 0 0 6px; font-style: italic; color: #555; }
-.pub-links a { margin-right: 8px; }
+.paper-box-image img {
+  width:100%; height:120px; object-fit:cover; border:1px solid #eee; border-radius:6px;
+}
+.paper-box-text { line-height:1.5; }
+.paper-box-text a { color:#2b6cb0; text-decoration:none; }
+.paper-box-text a:hover { text-decoration:underline; }
+.paper-box-text p { margin:6px 0; }
 </style>
 
-<div class="pubs">
-
-  <!-- 1 -->
-  <div class="pub-item">
-    <div class="pub-thumb">
-      <img src="/images/papers/EHRStruct.png" alt="EHRStruct figure">
-    </div>
-    <div class="pub-meta">
-      <div class="pub-title">EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks</div>
-      <div class="pub-authors">Xiao Yang, Xuejiao Zhao, Zhiqi Shen</div>
-      <div class="pub-venue">The 40th Annual AAAI Conference on Artificial Intelligence (AAAI26)</div>
-      <div class="pub-links">
-        [Paper] <a href="https://github.com/YXNTU/EHRStruct" target="_blank">[Code]</a>
-      </div>
+<!-- Paper 1 -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AAAI 2026</div>
+      <img src='/images/papers/EHRStruct.png' alt="EHRStruct">
     </div>
   </div>
+  <div class='paper-box-text' markdown="1">
+  
+[EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks]()
 
-  <!-- 2 -->
-  <div class="pub-item">
-    <div class="pub-thumb">
-      <img src="/images/papers/CausalHGNN.png" alt="CausalHGNN figure">
-    </div>
-    <div class="pub-meta">
-      <div class="pub-title">Are Heterogeneous Graph Neural Networks Truly Effective? A Causal Perspective</div>
-      <div class="pub-authors">Xiao Yang, Xuejiao Zhao, Zhiqi Shen</div>
-      <div class="pub-venue">arXiv</div>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2510.05750" target="_blank">[Paper]</a>
-        <a href="https://github.com/YXNTU/CausalHGNN" target="_blank">[Code]</a>
-      </div>
-    </div>
+**Xiao Yang**, Xuejiao Zhao, Zhiqi Shen
+
+*The 40th Annual AAAI Conference on Artificial Intelligence (AAAI26)*  
+[Paper] [**Code**](https://github.com/YXNTU/EHRStruct)
   </div>
-
-  <!-- 3 -->
-  <div class="pub-item">
-    <div class="pub-thumb">
-      <img src="/images/papers/Grug.png" alt="Grug figure">
-    </div>
-    <div class="pub-meta">
-      <div class="pub-title">A Unified Gradient Regularization Method for Heterogeneous Graph Neural Networks</div>
-      <div class="pub-authors">Xiao Yang, Xuejiao Zhao, Zhiqi Shen</div>
-      <div class="pub-venue">Neural Networks</div>
-      <div class="pub-links">
-        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608025009840" target="_blank">[Paper]</a>
-        <a href="https://github.com/YXNTU/Grug" target="_blank">[Code]</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 4 -->
-  <div class="pub-item">
-    <div class="pub-thumb">
-      <img src="/images/papers/GeneralDyg.png" alt="GeneralDyG figure">
-    </div>
-    <div class="pub-meta">
-      <div class="pub-title">A Generalizable Anomaly Detection Method in Dynamic Graphs</div>
-      <div class="pub-authors">Xiao Yang, Xuejiao Zhao, Zhiqi Shen</div>
-      <div class="pub-venue">The 39th Annual AAAI Conference on Artificial Intelligence (AAAI25)</div>
-      <div class="pub-links">
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35508" target="_blank">[Paper]</a>
-        <a href="https://github.com/YXNTU/GeneralDyG" target="_blank">[Code]</a>
-      </div>
-    </div>
-  </div>
-
 </div>
+
+<!-- Paper 2 -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">arXiv 2025</div>
+      <img src='/images/papers/CausalHGNN.png' alt="CausalHGNN">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+  
+[Are Heterogeneous Graph Neural Networks Truly Effective? A Causal Perspective](https://arxiv.org/abs/2510.05750)
+
+**Xiao Yang**, Xuejiao Zhao, Zhiqi Shen
+
+*arXiv*  
+[**Paper**](https://arxiv.org/abs/2510.05750) [**Code**](https://github.com/YXNTU/CausalHGNN)
+  </div>
+</div>
+
+<!-- Paper 3 -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Neural Networks 2025</div>
+      <img src='/images/papers/Grug.png' alt="Grug">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+  
+[A Unified Gradient Regularization Method for Heterogeneous Graph Neural Networks](https://www.sciencedirect.com/science/article/abs/pii/S0893608025009840)
+
+**Xiao Yang**, Xuejiao Zhao, Zhiqi Shen
+
+*Neural Networks*  
+[**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S0893608025009840) [**Code**](https://github.com/YXNTU/Grug)
+  </div>
+</div>
+
+<!-- Paper 4 -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AAAI 2025</div>
+      <img src='/images/papers/GeneralDyg.png' alt="GeneralDyG">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+  
+[A Generalizable Anomaly Detection Method in Dynamic Graphs](https://ojs.aaai.org/index.php/AAAI/article/view/35508)
+
+**Xiao Yang**, Xuejiao Zhao, Zhiqi Shen
+
+*The 39th Annual AAAI Conference on Artificial Intelligence (AAAI25)*  
+[**Paper**](https://ojs.aaai.org/index.php/AAAI/article/view/35508) [**Code**](https://github.com/YXNTU/GeneralDyG)
+  </div>
+</div>
+
 
 
 
