@@ -57,7 +57,7 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
     </div>
   </div>
   <div class='paper-box-text'>
-    <strong>EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks</strong><br>
+    EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks<br>
     <b>Xiao Yang</b>, Xuejiao Zhao, Zhiqi Shen<br>
     <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
     [Paper] <a href="https://github.com/YXNTU/EHRStruct" target="_blank">[Code]</a>
@@ -68,12 +68,12 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">arXiv 2025</div>
+      <div class="badge">arXiv</div>
       <img src='/images/papers/CausalHGNN.png' alt="CausalHGNN">
     </div>
   </div>
   <div class='paper-box-text'>
-    <strong>Are Heterogeneous Graph Neural Networks Truly Effective? A Causal Perspective</strong><br>
+    Are Heterogeneous Graph Neural Networks Truly Effective? A Causal Perspective<br>
     <b>Xiao Yang</b>, Xuejiao Zhao, Zhiqi Shen<br>
     <em>arXiv</em><br>
     <a href="https://arxiv.org/abs/2510.05750">[Paper]</a> <a href="https://github.com/YXNTU/CausalHGNN" target="_blank">[Code]</a>
@@ -89,7 +89,7 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
     </div>
   </div>
   <div class='paper-box-text'>
-    <strong>A Unified Gradient Regularization Method for Heterogeneous Graph Neural Networks</strong><br>
+    A Unified Gradient Regularization Method for Heterogeneous Graph Neural Networks<br>
     <b>Xiao Yang</b>, Xuejiao Zhao, Zhiqi Shen<br>
     <em>Neural Networks</em><br>
     <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608025009840">[Paper]</a> 
@@ -106,7 +106,7 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
     </div>
   </div>
   <div class='paper-box-text'>
-    <strong>A Generalizable Anomaly Detection Method in Dynamic Graphs</strong><br>
+    A Generalizable Anomaly Detection Method in Dynamic Graphs<br>
     <b>Xiao Yang</b>, Xuejiao Zhao, Zhiqi Shen<br>
     <em>The 39th Annual AAAI Conference on Artificial Intelligence</em><br>
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35508">[Paper]</a> 
