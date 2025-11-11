@@ -1,3 +1,9 @@
+---
+permalink: /
+title: "Xiao Yang"
+layout: single
+author_profile: true
+---
 
 # Xiao Yang
 
