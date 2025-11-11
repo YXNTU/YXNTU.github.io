@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # 或改成 "air" 试试看不同风格
-title                    : "Xiao Yang / NTU Ph.D. Student"
+site_theme               : "air" # 或改成 "air" 试试看不同风格
+title                    : "Hi"
 title_separator          : "-"
 name                     : &name "Xiao Yang"
 description              : &description "Xiao Yang's academic portfolio and research projects at Nanyang Technological University (NTU)"
