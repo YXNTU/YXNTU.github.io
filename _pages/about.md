@@ -117,5 +117,5 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 
 
 ## Professional Services & Teaching
-- Co-Organizer/Cooperator and PC Member of The 1st AI for Healthy Aging and Longevity Workshop @ AAAI 2026  
+- Co-Organizer and PC Member of The 1st AI for Healthy Aging and Longevity Workshop @ AAAI 2026  
 - Reviewer for AAAI and NeurIPS
