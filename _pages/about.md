@@ -10,7 +10,7 @@ redirect_from:
 
 # Xiao Yang
 
-Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological University (NTU), supervised by **Prof. Chunyan Miao** and **Dr. Xuejiao Zhao**. His research interests primarily focus on **Large Language Models (LLMs)**, **AI for Health**, and **Graph Neural Networks (GNNs)**.
+Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological University (NTU), supervised by **Prof. Chunyan Miao** and co-supervised by **Dr Zhiqi Shen** and **Dr Xuejiao Zhao**. His research interests primarily focus on Large Language Models (LLMs), AI for Health, and Graph Neural Networks (GNNs).
 
 
 ## News
@@ -116,6 +116,5 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 
 
 
-## Professional Services & Teaching
-- Co-Organizer/Cooperator and PC Member of The 1st AI for Healthy Aging and Longevity Workshop @ AAAI 2026  
-- Reviewer for AAAI and NeurIPS
+## Professional Services
+- Co-Organizer and PC Member of The 1st AI for Healthy Aging and Longevity Workshop @ AAAI 2026  
