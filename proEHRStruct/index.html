@@ -326,26 +326,259 @@
 
 
 
-
-
-
-
-
-
-<!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
 
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+      <!-- Title -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <h2 class="title is-3">Task Description</h2>
+        </div>
       </div>
+
+      <!-- Table -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="table-container">
+            <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Task Scenarios</th>
+                  <th>Task Levels</th>
+                  <th>Task Categories</th>
+                  <th>Task IDs</th>
+                  <th>Metrics</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="3">Data-Driven</td>
+                  <td>Understanding</td>
+                  <td>Information retrieval</td>
+                  <td>D-U1 / D-U2</td>
+                  <td>Accuracy</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Reasoning</td>
+                  <td>Data aggregation</td>
+                  <td>D-R1 / D-R2 / D-R3</td>
+                  <td>Accuracy</td>
+                </tr>
+                <tr>
+                  <td>Arithmetic computation</td>
+                  <td>D-R4 / D-R5</td>
+                  <td>Accuracy</td>
+                </tr>
+
+                <tr>
+                  <td rowspan="3">Knowledge-Driven</td>
+                  <td>Understanding</td>
+                  <td>Clinical identification</td>
+                  <td>K-U1</td>
+                  <td>AUC</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Reasoning</td>
+                  <td>Diagnostic assessment</td>
+                  <td>K-R1 / K-R2</td>
+                  <td>AUC</td>
+                </tr>
+                <tr>
+                  <td>Treatment planning</td>
+                  <td>K-R3</td>
+                  <td>AUC</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description Text -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              <strong>Data-Driven tasks</strong> include:  
+              D-U1/U2 for data filtering based on field conditions;  
+              D-R1/R2/R3 for value aggregation such as count, average, and sum;  
+              and D-R4/R5 for arithmetic reasoning over numeric field trends.
+            </p>
+
+            <p>
+              <strong>Knowledge-Driven tasks</strong> include:  
+              K-U1 for clinical code identification;  
+              K-R1 for mortality prediction;  
+              K-R2 for disease prediction based on clinical profiles;  
+              and K-R3 for personalized medication recommendation.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
+
+
+
+<section class="hero is-small is-light">
+  <style>
+    .model-list { 
+      list-style: none; 
+      padding-left: 0; 
+      line-height: 1.9;
+    }
+
+    .model-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      transition: color 0.2s ease;
+    }
+
+    .model-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 10px;
+      transition: transform 0.22s ease, opacity 0.22s ease;
+      opacity: 0.85;
+    }
+
+    .model-item:hover .model-dot {
+      transform: scale(1.3);
+      opacity: 1;
+    }
+
+    .model-item a {
+      color: #363636;
+      transition: color 0.2s ease;
+    }
+
+    .model-item a:hover {
+      color: #5a3fe7;   /* 紫色 hover（与 EHRStruct 主题协调） */
+    }
+  </style>
+
+  <div class="hero-body">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <h2 class="title is-3">Evaluated LLMs</h2>
+        </div>
+      </div>
+
+
+      <!-- General LLMs -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h3 class="title is-5">General Large Language Models</h3>
+
+          <ul class="model-list">
+
+            <li class="model-item">
+              <span class="model-dot" style="background:#6C5CE7;"></span>
+              <a href="https://openai.com/" target="_blank"><strong>GPT Series</strong></a>
+            </li>
+
+            <li class="model-item">
+              <span class="model-dot" style="background:#00B894;"></span>
+              <a href="https://gemini.google.com/" target="_blank"><strong>Gemini Series</strong></a>
+            </li>
+
+            <li class="model-item">
+              <span class="model-dot" style="background:#E17055;"></span>
+              <a href="https://www.deepseek.com/" target="_blank"><strong>DeepSeek Series</strong></a>
+            </li>
+
+            <li class="model-item">
+              <span class="model-dot" style="background:#0984E3;"></span>
+              <a href="https://qwen.ai/" target="_blank"><strong>Qwen Series</strong></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- Medical LLMs -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h3 class="title is-5">Medical Large Language Models</h3>
+
+          <ul class="model-list">
+
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://www.huatuogpt.cn/"><strong>Huatuo</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://arxiv.org/abs/2304.08247"><strong>HEAL</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://huggingface.co/epfl-llm/meditron-7b"><strong>Meditron</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://huggingface.co/medalpaca/medalpaca-13b"><strong>MedAlpaca</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://github.com/believewhat/JMLR-Joint-Medical-LLM-and-Retrieval-Training"><strong>JMLR</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://huggingface.co/axiong/PMC_LLaMA_13B"><strong>PMC-LLaMA</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://huggingface.co/m42-health/Llama3-Med42-70B"><strong>Med42</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://arxiv.org/abs/2403.03640"><strong>Apollo</strong></a></li>
+            <li class="model-item"><span class="model-dot" style="background:#B53471;"></span><a href="https://arxiv.org/abs/2406.10459"><strong>CancerLLM</strong></a></li>
+
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="hero is-small is-light" style="background-color: #ffffff !important;">
+  <div class="hero-body">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths has-text-centered">
+          <h2 class="title is-3">EHRStruct Leaderboard</h2>
+        </div>
+      </div>
+
+      <!-- Figure -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/EHRStruct Leaderboard.png"
+               alt="EHRStruct Leaderboard figure"
+               style="width: 100%; height: auto; display: block; margin-bottom: 20px;">
+        </div>
+      </div>
+
+      <!-- Description -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              Performance of LLMs on Structured EHR Tasks under the zero-shot setting (Synthea).
+
+              <span style="color:#ff4c4c;">✖</span> indicates no valid output,
+
+              <span style="color:#3166FF;">✔</span> indicates a perfect score of 100. 
+
+              <strong><span style="color:#3166FF;">1<sup>st</sup></span></strong>,
+              <strong><span style="color:#F56B00;">2<sup>nd</sup></span></strong>, and
+              <strong><span style="color:#32CB00;">3<sup>rd</sup></span></strong>
+              denote the best, second-best, and third-best results, respectively.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
 
 
@@ -359,13 +592,13 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>@article{yang2025ehrstruct,
+  title={EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks},
+  author={Yang, Xiao and Zhao, Xuejiao and Shen, Zhiqi},
+  journal={arXiv preprint arXiv:2511.08206},
+  year={2025}
+}
+	  </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
