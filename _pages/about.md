@@ -60,7 +60,7 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
     EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks<br>
     <b>Xiao Yang</b>, Xuejiao Zhao, Zhiqi Shen<br>
     <em>The 40th Annual AAAI Conference on Artificial Intelligence</em><br>
-     <a href="http://arxiv.org/abs/2511.08206">[Paper]</a> <a href="https://github.com/YXNTU/EHRStruct" target="_blank">[Code]</a>
+     <a href="http://arxiv.org/abs/2511.08206">[Paper]</a> <a href="https://github.com/YXNTU/EHRStruct" target="_blank">[Code]</a> <a href="https://yxntu.github.io/proEHRStruct/" target="_blank">[Project]</a>
   </div>
 </div>
 
