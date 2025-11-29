@@ -15,10 +15,10 @@ Xiao Yang is currently a second-year Ph.D. student at Nanyang Technological Univ
 
 ## News
 
-- *2025.11:* 🎉🎉 One paper is accepted by *AAAI 2026*  **Oral**  *(CCF-A)*!  
-- *2025.09:* 🎉🎉 One paper is accepted by *Neural Networks* *(CCF-B)*! 
+- *2025.11:* 🎉🎉 One paper is accepted by *AAAI 2026*  **Oral**!  
+- *2025.09:* 🎉🎉 One paper is accepted by *Neural Networks*! 
 - *2025.09:* We are organizing the *The 1st AI for Healthy Aging and Longevity Workshop*, in conjunction with *AAAI 2026*, now calling for papers!  
-- *2024.12:* 🎉🎉 One paper is accepted by *AAAI 2025* *(CCF-A)*!  
+- *2024.12:* 🎉🎉 One paper is accepted by *AAAI 2025*!  
 
 
 ## Educations
